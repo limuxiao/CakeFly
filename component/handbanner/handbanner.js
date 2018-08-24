@@ -21,7 +21,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    
+    onLoadImage: function(event){
+      console.log(event)
+    }
   },
 
   created: function () {

@@ -6,7 +6,7 @@
     <block wx:for="{{imgUrls}}" wx:key="*this" >
 
       <swiper-item>
-         <image class="img-banner-content" src="{{item}}" /> 
+         <image class="img-banner-content" src="{{item}}" bindload="onLoadImage"/> 
       </swiper-item>
 
       

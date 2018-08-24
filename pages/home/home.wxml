@@ -1,19 +1,14 @@
 <view>
 
-  <!-- <view>
-    <banner id="banner" image-urls="{{imgUrls}}" />
-  </view>   -->
-
-
   <view>
     <handbanner id="handbanner" image-urls="{{imgUrls}}" />
   </view>
 
   <view>
-  
    <entry id="entry" entry-items="{{entryItems}}"/>
-  
   </view>
+
+  
 
 
 </view>

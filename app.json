@@ -1,8 +1,8 @@
 {
   "pages":[
 
-    "pages/index/index",
     "pages/home/home",
+    "pages/index/index",
     "pages/business/business",
 
     "pages/logs/logs",
@@ -27,24 +27,27 @@
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
-    "list": [{
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "imgs/home_off.png",
+        "selectedIconPath": "imgs/home_on.png"
+      },
+      {
       "pagePath":"pages/index/index",
       "text":"index",
       "iconPath":"imgs/index_off.png",
       "selectedIconPath":"imgs/index_on.png"
-    },
-    {
-      "pagePath": "pages/home/home",
-      "text": "home",
-      "iconPath":"imgs/home_off.png",
-      "selectedIconPath":"imgs/home_on.png"
-    },
-    {
+      },
+    
+      {
       "pagePath":"pages/business/business",
       "text":"bussiness",
       "iconPath": "imgs/business_off.png",
       "selectedIconPath": "imgs/business_on.png"
-    }]
+      }
+    ]
   },
   "networkTimeout": {
     "request": 15000,

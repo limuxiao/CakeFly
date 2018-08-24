@@ -48,8 +48,7 @@ Common.Config = {
     text_bread:"面包",
     text_milk:"奶茶",
     text_snack:"零食"
-  }
-
+  },
 }
 
 export default Common
