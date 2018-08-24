@@ -1,0 +1,18 @@
+<view class="view-banner">
+
+    <view class="view-banner-img">
+        <image class="img-banner-content" src="{{imgUrls[currentIndex]}}"/> 
+    </view>
+
+    <view class="view-banner-bottom">
+    
+      <view wx:for="{{imgUrls}}" wx:key="*this" wx:index="index" wx:item="img_url">
+        <image wx:if="{{index == currentIndex}}" class="view-banner-icon-select" />
+        <image wx:else class="view-banner-icon-unselect" />
+      </view>
+      
+    
+    </view>
+
+  </view>    
+  

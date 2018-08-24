@@ -1,0 +1,30 @@
+.view-banner{
+
+  width: 100%; height: 320rpx; position: relative;
+
+}
+
+.view-banner-img{
+  width: 100%; height: 100%; position: absolute; z-index: 1;
+}
+
+.view-banner-bottom{
+  width: 100%; height: 40rpx; position: absolute; bottom: 20rpx; z-index: 2;
+  display: flex; justify-content: center;
+}
+
+.img-banner-content{
+  width: 100%; height: 100%; 
+}
+
+.view-banner-icon-unselect{
+  width: 16rpx; height: 16rpx; background-color: #888; border-radius: 8rpx;margin: auto 4rpx;
+}
+
+.view-banner-icon-select{
+  width: 16rpx; height: 16rpx; background-color: #eee; border-radius: 8rpx;margin: auto 4rpx;
+}
+
+.view-content{
+  width: 100%; height: auto;
+}
