@@ -4,7 +4,7 @@ const Common = require("../../utils/Common.js").default
 
 var { EntryItem, Config } = Common
 
-const app = getApp()
+const app = getApp()  
 
 Page({
 
@@ -40,7 +40,9 @@ Page({
         "pageUrl": Config.Pages.page_snack,
         "content": Config.Text.text_snack
       }
-    ]
+    ],
+
+    hasUser: false
 
 
   },
@@ -56,7 +58,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+   
   },
 
   /**

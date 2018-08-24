@@ -1,11 +1,19 @@
 <view>
 
-  <view>
-    <handbanner id="handbanner" image-urls="{{imgUrls}}" />
+  <view class="view-root" wx:if="{{hasUser}}">
+  
+    <view>
+      <handbanner id="handbanner" image-urls="{{imgUrls}}" />
+    </view>
+
+    <view>
+    <entry id="entry" entry-items="{{entryItems}}"/>
+    </view>
+  
   </view>
 
-  <view>
-   <entry id="entry" entry-items="{{entryItems}}"/>
+  <view class="view-root" wx:else>
+    <loading />
   </view>
 
   

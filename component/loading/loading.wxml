@@ -1,0 +1,8 @@
+<view class="view-root">
+
+  <text>正在加载...</text>
+
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击获取用户信息</button>
+  
+
+</view>

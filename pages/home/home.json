@@ -4,6 +4,7 @@
   "usingComponents":{
     "banner":"/component/banner/banner",
     "entry":"/component/entry/entry",
-    "handbanner":"/component/handbanner/handbanner"
+    "handbanner":"/component/handbanner/handbanner",
+    "loading":"/component/loading/loading"
   }
 }
