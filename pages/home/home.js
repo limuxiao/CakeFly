@@ -14,9 +14,9 @@ Page({
 
   data: {
     imgUrls: [
-      "http://img3.3lian.com/2013/s1/19/d/56.jpg",
-      "http://pic.58pic.com/58pic/15/63/77/17u58PICAqC_1024.jpg",
-      "http://pic.58pic.com/58pic/11/24/67/00958PICfNK.jpg"
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
 
     // entryItems:[

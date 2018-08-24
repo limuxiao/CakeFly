@@ -1,9 +1,13 @@
 <view>
 
-  <view>
+  <!-- <view>
     <banner id="banner" image-urls="{{imgUrls}}" />
-  </view>  
+  </view>   -->
 
+
+  <view>
+    <handbanner id="handbanner" image-urls="{{imgUrls}}" />
+  </view>
 
   <view>
   

@@ -3,6 +3,7 @@
   "backgroundColor": "#ffffff",
   "usingComponents":{
     "banner":"/component/banner/banner",
-    "entry":"/component/entry/entry"
+    "entry":"/component/entry/entry",
+    "handbanner":"/component/handbanner/handbanner"
   }
 }

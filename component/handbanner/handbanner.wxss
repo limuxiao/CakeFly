@@ -1,0 +1,11 @@
+.view-banner{
+  width: 100%; height: 320rpx; position: relative;
+}
+
+.img-banner-content{
+  width: 100%; height: 100%; 
+}
+
+.swiper-banner{
+  width: 100%; height: 100%;
+}
