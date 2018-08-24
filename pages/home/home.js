@@ -18,18 +18,40 @@ Page({
       "http://pic.58pic.com/58pic/15/63/77/17u58PICAqC_1024.jpg",
       "http://pic.58pic.com/58pic/11/24/67/00958PICfNK.jpg"
     ],
+
     // entryItems:[
+
     //   new EntryItem(Config.Imgs.img_cake, Config.Pages.page_cake, Config.Text.text_cake),
     //   new EntryItem(Config.Imgs.img_bread, Config.Pages.page_bread, Config.Text.text_bread),
     //   new EntryItem(Config.Imgs.img_milk, Config.Pages.page_milk, Config.Text.text_milk),
     //   new EntryItem(Config.Imgs.img_snack, Config.Pages.page_snack, Config.Text.text_snack)
-    // ]
+
+    // ],
+
     entryItems: [
-      new EntryItem("/imgs/icon_entry_cake.png", "/pages/cake/cake", "蛋糕"),
-      new EntryItem("/imgs/icon_entry_bread.png", "/pages/bread/bread", "面包"),
-      new EntryItem("/imgs/icon_entry_milk.png", "/pages/milk/milk", "奶茶"),
-      new EntryItem("/imgs/icon_entry_snack.png", "/pages/snack/snack", "零食"),
+      {
+        "iconUrl": Config.Imgs.img_cake,
+        "pageUrl": Config.Pages.page_cake,
+        "content": Config.Text.text_cake
+      },
+      {
+        "iconUrl": Config.Imgs.img_bread,
+        "pageUrl": Config.Pages.page_bread,
+        "content": Config.Text.text_bread
+      },
+      {
+        "iconUrl": Config.Imgs.img_milk,
+        "pageUrl": Config.Pages.page_milk,
+        "content": Config.Text.text_milk
+      },
+      {
+        "iconUrl": Config.Imgs.img_snack,
+        "pageUrl": Config.Pages.page_snack,
+        "content": Config.Text.text_snack
+      }
     ]
+
+
   },
 
   /**

@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "Home",
-  "backgroundColor": "#333333",
+  "backgroundColor": "#ffffff",
   "usingComponents":{
     "banner":"/component/banner/banner",
     "entry":"/component/entry/entry"

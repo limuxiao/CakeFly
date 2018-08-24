@@ -1,14 +1,14 @@
 <view class="view-entry">
-
+ 
   <view class="view-entry-item" wx:for="{{entrys}}" bindtap="toDisposePage" data-page-url="{{item.pageUrl}}">
   
     <view class="view-entry-icon">
-      <image class="img-entry-icon" src="{{item.iconUrl}}"/>
+      <image class="img-entry-icon" src="{{item.iconUrl}}" mode="aspectFit"/>
     </view>      
 
     <view class="view-entry-text">{{item.content}}</view>
 
-  </view>
+  </view>   
        
 
 </view>

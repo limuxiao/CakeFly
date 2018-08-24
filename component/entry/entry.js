@@ -42,9 +42,6 @@ Component({
 
   ready: function () {
     console.log('...entry...ready...')
-    wx.showToast({
-      title: '数据长度：' + this.properties.entryItems.length,
-    })
     this.setData({
       entrys: this.properties.entryItems
     })
