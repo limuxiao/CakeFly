@@ -1,15 +1,28 @@
 <view>
 
   <view class="view-root">
-  
+
+    <!-- 顶部banner -->
     <view>
       <handbanner id="handbanner" image-urls="{{imgUrls}}" />
     </view>
 
+    <!-- 功能入口 -->
     <view>
-    <entry id="entry" entry-items="{{entryItems}}"/>
+      <entry id="entry" entry-items="{{entryItems}}"/>
     </view>
-  
+
+    <!-- 头条新闻 -->
+    <view>
+      <news id="news" />
+    </view>
+
+    <!-- 今日推荐 -->
+    <view></view>
+
+    <!-- 商品瀑布流 -->
+    <view></view>
+
   </view>
 
 </view>

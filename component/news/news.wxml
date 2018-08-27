@@ -1,0 +1,37 @@
+<view class="view-news">
+
+  <!-- logo -->
+  <view class="view-news-logo">
+    <image class="img-logo" src="/imgs/icon_news.png" mode="aspectFit" />
+  </view>
+
+  <!-- content -->
+  <view class="view-news-content">
+
+    <!-- title -->
+    <view class="view-news-title">
+
+      <view class="view-title-content">
+
+        <view class="view-title-tag">居家</view>
+
+        <text>这里是标题1</text>  
+      </view>
+
+      <view class="view-title-content">
+        <view class="view-title-tag">装修</view>
+        <text>这里是标题2</text>
+      </view>
+
+    </view>
+    
+    <!-- image -->
+    <view class="view-news-img">
+      <image class="img-content" src="" mode="scaleToFill" />
+    </view>
+
+  </view>
+
+  
+
+</view>

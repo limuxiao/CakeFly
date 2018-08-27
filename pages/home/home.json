@@ -5,6 +5,7 @@
     "banner":"/component/banner/banner",
     "entry":"/component/entry/entry",
     "handbanner":"/component/handbanner/handbanner",
-    "loading":"/component/loading/loading"
+    "loading":"/component/loading/loading",
+    "news":"/component/news/news"
   }
 }

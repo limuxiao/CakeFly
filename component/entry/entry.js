@@ -25,7 +25,6 @@ Component({
     * 跳转到指定页面
     */
     toDisposePage: function (event) {
-      console.log("...toDisposePage...")
       const { pageUrl } = event.currentTarget.dataset
       wx.navigateTo({
         url: pageUrl,
@@ -36,12 +35,12 @@ Component({
   },
 
   created: function(){
-    console.log("...entrt...created...")
+    
 
   },
 
   ready: function () {
-    console.log('...entry...ready...')
+    
     this.setData({
       entrys: this.properties.entryItems
     })
