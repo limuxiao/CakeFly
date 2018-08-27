@@ -6,42 +6,45 @@
   </view>
 
   <!-- content -->
-  <view class="view-news-content">
-
-    <block  wx:for="{{newItems}}" wx:key="news">
+    <swiper class="view-news-content" duration="500" autoplay="true" interval="3000"
+    vertical="true" circular="false">
     
-      <!-- title -->
-      <view class="view-news-title"  animation="{{animationData}}">
-
-        <view class="view-title-content">
-
-          <view class="view-title-tag">{{item.topTag}}</view>
-
-          <text class="text-title">{{item.topTitle}}</text>  
-        </view>
-
-        <view class="view-title-content">
-          <view class="view-title-tag">{{item.bottomTag}}</view>
-          <text class="text-title">{{item.bottomTitle}}</text>
-        </view>
-
-      </view>
+      <block  wx:for="{{newItems}}" wx:key="news">
       
-      <!-- image -->
-      <view class="view-news-img" animation="{{animationData}}">
-        <view class="view-news-img-info">
-          <image class="img-content" src="{{item.imgUrl}}" mode="scaleToFill" />
-        </view> 
-        <view class="view-news-img-mask">
-          <image class="img-content" src="/imgs/icon_mask.png" mode="scaleToFill" />
-        </view> 
-      </view>
+        <swiper-item>
+        
+          <!-- title -->
+          <view class="view-news-title" >
 
-    </block>
+            <view class="view-title-content">
+
+              <view class="view-title-tag">{{item.topTag}}</view>
+
+              <text class="text-title">{{item.topTitle}}</text>  
+            </view>
+
+            <view class="view-title-content">
+              <view class="view-title-tag">{{item.bottomTag}}</view>
+              <text class="text-title">{{item.bottomTitle}}</text>
+            </view>
+
+          </view>
+          
+          <!-- image -->
+          <view class="view-news-img">
+            <view class="view-news-img-info">
+              <image class="img-content" src="{{item.imgUrl}}" mode="scaleToFill" />
+            </view> 
+            <view class="view-news-img-mask">
+              <image class="img-content" src="/imgs/icon_mask.png" mode="scaleToFill" />
+            </view> 
+          </view>
+        
+        </swiper-item>
+      
+      </block>  
     
-
-  </view>
-
-  
+    
+    </swiper>
 
 </view>
