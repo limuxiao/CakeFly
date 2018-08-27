@@ -29,9 +29,13 @@
       
       <!-- image -->
       <view class="view-news-img" animation="{{animationData}}">
-        <image class="img-content" src="{{item.imgUrl}}" mode="scaleToFill" /> 
+        <view class="view-news-img-info">
+          <image class="img-content" src="{{item.imgUrl}}" mode="scaleToFill" />
+        </view> 
+        <view class="view-news-img-mask">
+          <image class="img-content" src="/imgs/icon_mask.png" mode="scaleToFill" />
+        </view> 
       </view>
-
 
     </block>
     
