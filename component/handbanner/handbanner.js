@@ -22,7 +22,7 @@ Component({
    */
   methods: {
     onLoadImage: function(event){
-      console.log(event)
+      
     }
   },
 

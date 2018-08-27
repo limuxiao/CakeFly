@@ -1,6 +1,6 @@
 <view>
 
-  <view class="view-root" wx:if="{{hasUser}}">
+  <view class="view-root">
   
     <view>
       <handbanner id="handbanner" image-urls="{{imgUrls}}" />
@@ -11,12 +11,5 @@
     </view>
   
   </view>
-
-  <view class="view-root" wx:else>
-    <loading />
-  </view>
-
-  
-
 
 </view>

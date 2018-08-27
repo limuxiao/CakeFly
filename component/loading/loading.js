@@ -33,16 +33,6 @@ Component({
 
   ready: function () {
 
-    console.log("...loading ready...")
-
-    wx.getSetting({
-      success: res => {
-
-        console.log("...loading getSetting success...")
-        console.log(res)        
-      }
-    })
-
   },
 
 
