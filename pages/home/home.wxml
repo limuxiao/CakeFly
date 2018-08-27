@@ -13,7 +13,7 @@
     </view>
 
     <!-- 头条新闻 -->
-    <view>
+    <view class="view-news">
       <news id="news" />
     </view>
 

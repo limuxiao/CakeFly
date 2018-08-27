@@ -1,6 +1,5 @@
 .view-news{
-  height: 160rpx; margin: 10rpx; background-color: #eee; border-radius: 10rpx; border: 1rpx solid #ff0ff0;
-  position: relative;
+  height: 70px; background-color: #eee; position: relative;
 }
 
 .view-news-logo{
@@ -16,11 +15,15 @@
 }
 
 .view-title-content{
-  width: 100%; height: 50%; display: flex; align-items: center; margin-left: 10rpx;
+  width: 100%; height: 50%; display: flex; align-items: center; margin-left: 0 10rpx; font-size: 30rpx;
 }
 
 .view-news-img{
-  width: 30%; height: 100%; background-color: #999; float:right; 
+  width: 30%; height: 100%; float:right; z-index: 0;
+}
+
+.view-news-mask{
+  width: 30%; height: 100%; float:right; z-index: 1;
 }
 
 .view-title-tag{
@@ -34,4 +37,8 @@
 
 .img-content{
   width: 100%; height: 100%; 
+}
+
+.text-title{
+   width:80%;  white-space:nowrap; overflow-x: hidden;
 }

@@ -8,27 +8,33 @@
   <!-- content -->
   <view class="view-news-content">
 
-    <!-- title -->
-    <view class="view-news-title">
-
-      <view class="view-title-content">
-
-        <view class="view-title-tag">居家</view>
-
-        <text>这里是标题1</text>  
-      </view>
-
-      <view class="view-title-content">
-        <view class="view-title-tag">装修</view>
-        <text>这里是标题2</text>
-      </view>
-
-    </view>
+    <block  wx:for="{{newItems}}" wx:key="news">
     
-    <!-- image -->
-    <view class="view-news-img">
-      <image class="img-content" src="" mode="scaleToFill" />
-    </view>
+      <!-- title -->
+      <view class="view-news-title"  animation="{{animationData}}">
+
+        <view class="view-title-content">
+
+          <view class="view-title-tag">{{item.topTag}}</view>
+
+          <text class="text-title">{{item.topTitle}}</text>  
+        </view>
+
+        <view class="view-title-content">
+          <view class="view-title-tag">{{item.bottomTag}}</view>
+          <text class="text-title">{{item.bottomTitle}}</text>
+        </view>
+
+      </view>
+      
+      <!-- image -->
+      <view class="view-news-img" animation="{{animationData}}">
+        <image class="img-content" src="{{item.imgUrl}}" mode="scaleToFill" /> 
+      </view>
+
+
+    </block>
+    
 
   </view>
 

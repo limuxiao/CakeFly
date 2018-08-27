@@ -13,3 +13,7 @@
   height: 180rpx;
   background-color: #fff
 }
+
+.view-news{
+  margin-top: 16rpx;
+}
