@@ -1,9 +1,13 @@
 <view class="view-root">
 
-  <view class="view-row">
-    <view class="view-cell"></view>
-    <view class="view-cell"></view>
-  </view>
+    <view wx:for="{{recommendList}}" wx:key="recommendId">
+    
+      <view class="view-item">{{index}}</view>
 
+    </view>
+
+    
+  
+  
 
 </view>

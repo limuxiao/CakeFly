@@ -19,5 +19,5 @@
 }
 
 .view-recommend{
-  margin-top: 24rpx; 
+  background-color: #333;
 }

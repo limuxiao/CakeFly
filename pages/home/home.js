@@ -1,8 +1,8 @@
 // pages/home/home.js
 
-const Common = require("../../utils/Common.js").default
+const Common = require("../../utils/Common.js")
 
-var { EntryItem, Config } = Common
+var { EntryItem, Config } = Common.Common
 
 const app = getApp()  
 

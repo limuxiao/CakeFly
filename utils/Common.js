@@ -51,4 +51,6 @@ Common.Config = {
   },
 }
 
-export default Common
+module.exports = {
+  Common: Common
+}
