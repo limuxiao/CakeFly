@@ -22,8 +22,6 @@
       <recommend id="recommend" />
     </view>
 
-    <view style="width: 100%; height: 24rpx; background-color: #999;"></view>
-
     <!-- 商品瀑布流 -->
     <view></view>
 

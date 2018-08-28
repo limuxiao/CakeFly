@@ -1,5 +1,7 @@
 
 const HTTP = require("../../utils/HTTP.js")
+const Common = require("../../utils/Common.js")
+var { Config } = Common
 
 Component({
   /**
@@ -34,22 +36,24 @@ Component({
   },
 
   ready: function () {
-      this.setData({
-        recommendList: [
-          {
 
-          },
-          {
+    var _recommendList = [
+      {
+        title:"",
+        desc:"",
+        imgLeft:"",
+        imgRight:"",
+        disposeUrl:""
+      },
+      {},
+      {},
+      {},
+      {},
+    ]
 
-          },
-          {
-
-          },
-          {
-            
-          }
-        ]
-      })
+    this.setData({
+      recommendList: _recommendList}
+    )
   },
 
   

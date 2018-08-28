@@ -1,13 +1,14 @@
 <view class="view-root">
 
     <view wx:for="{{recommendList}}" wx:key="recommendId">
-    
-      <view class="view-item">{{index}}</view>
+
+      
+      <view class="view-item">
+        <view class="view-content">
+          <view>{{index}}</view>
+        </view>
+      </view>
 
     </view>
-
-    
-  
-  
 
 </view>

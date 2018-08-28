@@ -1,11 +1,12 @@
 .view-root{
-  width: 100%; height: auto; margin-top: 24rpx;
+  width: 100%; height: auto; overflow: auto; padding-top: 24rpx; padding-bottom: 24rpx;
 }
 
 .view-item{
-  width: 50%; height: 160rpx; float: left; 
+  width: 50%; height: 160rpx; float: left; background-color: #fff; 
+  border: 1rpx solid #eee; margin: -1rpx;
 }
 
-.view-split{
-  width: 50%; height: 24rpx; background-color: #333;
+.view-content{
+  margin: 0 20rpx; background-color: #aaa; height: 100%;
 }

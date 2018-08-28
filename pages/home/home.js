@@ -2,7 +2,7 @@
 
 const Common = require("../../utils/Common.js")
 
-var { EntryItem, Config } = Common.Common
+var { EntryItem, Config } = Common
 
 const app = getApp()  
 
@@ -60,10 +60,8 @@ Page({
    */
   onReady: function () {
 
-    // 这是一个非常重要的方法，获取页面标签对象
-    var entry = this.selectComponent("#entry")
-
-    wx.stopPullDownRefresh()
+    
+    
   },
 
   /**
@@ -92,7 +90,15 @@ Page({
    */
   onPullDownRefresh: function () {
       
-      
+    // 这是一个非常重要的方法，获取页面标签对象
+    var entry = this.selectComponent("#entry")
+    console.log(Common)
+    wx.stopPullDownRefresh()
+    var e = new EntryItem("", "", "哈哈哈")
+    console.log(e.content)
+    var es = [e]
+    entry.setEntrys(es)
+
   },
 
   /**

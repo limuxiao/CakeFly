@@ -29,7 +29,14 @@ Component({
       wx.navigateTo({
         url: pageUrl,
       })
+    },
+
+    setEntrys: function(entrys){
+      console.log("...entry setEntrys...")
+      console.log(entrys[0].content)
     }
+
+
 
 
   },
