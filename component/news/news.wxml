@@ -15,18 +15,16 @@
         
           <!-- title -->
           <view class="view-news-title" >
+            <navigator class="view-title-content" url="/pages/web/web?title={{item.topTag}}">
+                <view class="view-title-tag">{{item.topTag}}</view>
+                <text class="text-title">{{item.topTitle}}</text>  
+            </navigator>
+            
 
-            <view class="view-title-content">
-
-              <view class="view-title-tag">{{item.topTag}}</view>
-
-              <text class="text-title">{{item.topTitle}}</text>  
-            </view>
-
-            <view class="view-title-content">
+            <navigator class="view-title-content" url="/pages/web/web?title={{item.bottomTag}}">
               <view class="view-title-tag">{{item.bottomTag}}</view>
               <text class="text-title">{{item.bottomTitle}}</text>
-            </view>
+            </navigator>
 
           </view>
           

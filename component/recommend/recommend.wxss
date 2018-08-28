@@ -1,0 +1,11 @@
+.view-root{
+  width: 100%; display: table;
+}
+
+.view-row{
+  width: 100%; height: 200rpx; display: table-row; background-color: #ff0ff0;
+}
+
+.view-cell{
+  width: 50%; height: 100%;
+}

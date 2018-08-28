@@ -17,3 +17,7 @@
 .view-news{
   margin-top: 16rpx;
 }
+
+.view-recommend{
+  margin-top: 24rpx; 
+}

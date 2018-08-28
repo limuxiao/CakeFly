@@ -1,0 +1,9 @@
+<view>
+
+  <view>
+    <text>{{title}}</text>
+  </view>
+
+  <web-view></web-view>
+
+</view>

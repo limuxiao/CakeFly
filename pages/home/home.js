@@ -59,8 +59,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    wx.stopPullDownRefresh()
 
+    // 这是一个非常重要的方法，获取页面标签对象
+    var entry = this.selectComponent("#entry")
+
+    wx.stopPullDownRefresh()
   },
 
   /**

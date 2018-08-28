@@ -10,7 +10,9 @@
     "pages/cake/cake",
     "pages/bread/bread",
     "pages/milk/milk",
-    "pages/snack/snack"
+    "pages/snack/snack",
+
+    "pages/web/web"
   ],
   "window":{
     "backgroundTextStyle":"dark",

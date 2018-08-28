@@ -1,0 +1,9 @@
+<view class="view-root">
+
+  <view class="view-row">
+    <view class="view-cell"></view>
+    <view class="view-cell"></view>
+  </view>
+
+
+</view>

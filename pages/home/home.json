@@ -6,6 +6,7 @@
     "entry":"/component/entry/entry",
     "handbanner":"/component/handbanner/handbanner",
     "loading":"/component/loading/loading",
-    "news":"/component/news/news"
+    "news":"/component/news/news",
+    "recommend":"/component/recommend/recommend"
   }
 }
