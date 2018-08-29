@@ -2,7 +2,7 @@
 
 const Common = require("../../utils/Common.js")
 
-var { EntryItem, Config } = Common
+var { EntryItem, Config, RecommendItem } = Common
 
 const app = getApp()  
 
@@ -52,7 +52,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.startPullDownRefresh({})
+    
   },
 
   /**
@@ -60,8 +60,8 @@ Page({
    */
   onReady: function () {
 
-    
-    
+    wx.startPullDownRefresh({})
+
   },
 
   /**
@@ -91,13 +91,14 @@ Page({
   onPullDownRefresh: function () {
       
     // 这是一个非常重要的方法，获取页面标签对象
-    var entry = this.selectComponent("#entry")
-    console.log(Common)
-    wx.stopPullDownRefresh()
-    var e = new EntryItem("", "", "哈哈哈")
-    console.log(e.content)
-    var es = [e]
-    entry.setEntrys(es)
+    var recommend = this.selectComponent("#recommend")
+    recommend.checkNewCommendList({
+      success: (res) => {
+        wx.stopPullDownRefresh()    
+      }
+    })
+
+    
 
   },
 

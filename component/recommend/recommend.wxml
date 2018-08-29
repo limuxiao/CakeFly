@@ -2,10 +2,10 @@
 
     <view wx:for="{{recommendList}}" wx:key="recommendId">
 
-      
       <view class="view-item">
         <view class="view-content">
-          <view>{{index}}</view>
+          <view class="view-title" style="color: {{item.titleColor}}">{{item.title}}</view>
+          <view class="view-desc">{{item.desc}}</view>
         </view>
       </view>
 

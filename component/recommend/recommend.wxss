@@ -3,10 +3,18 @@
 }
 
 .view-item{
-  width: 50%; height: 160rpx; float: left; background-color: #fff; 
+  width: 50%; height: 180rpx; float: left; background-color: #fff; 
   border: 1rpx solid #eee; margin: -1rpx;
 }
 
 .view-content{
-  margin: 0 20rpx; background-color: #aaa; height: 100%;
+  margin: 0 20rpx; height: 100%;
+}
+
+.view-title{
+  margin-top: 10rpx; font-size: 32rpx;
+}
+
+.view-desc{
+  font-size: 24rpx; color: #999
 }

@@ -30,14 +30,13 @@ Component({
         url: pageUrl,
       })
     },
+    
+    /**
+     * 更新入口图标
+     */
+    checkNewEntry: function(){
 
-    setEntrys: function(entrys){
-      console.log("...entry setEntrys...")
-      console.log(entrys[0].content)
     }
-
-
-
 
   },
 
