@@ -85,12 +85,12 @@ const Config = {
       disposeUrl:"http://www.baidu.com"
     },
     {
-      title: "有好货", desc: "高颜值美货", tag: " ", titleColor: "#34aaf1", 
+      title: "有好货", desc: "高颜值美货", tag: "", titleColor: "#34aaf1", 
       imgLeft:"https://img.alicdn.com/imgextra/i3/2107975731/TB1_s_Jtr9YBuNjy0FgXXcxcXXa_!!0-item_pic.jpg_430x430q90.jpg",
       imgRight: ""
     },
     {
-      title: "淘抢购", desc: "应该倒计时", tag:" ", titleColor: "#f22c2b",
+      title: "淘抢购", desc: "应该倒计时", tag:"", titleColor: "#f22c2b",
     },
     {
       title: "必买清单", desc: "购物全攻略", titleColor: "#ff4261",

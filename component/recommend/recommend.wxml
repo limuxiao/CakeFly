@@ -30,7 +30,14 @@
       <view class="view-item" wx:else bindtap="toDisposePage" data-page-url="{{item.disposeUrl}}" data-title="{{item.title}}">
         <view class="view-content">
           <view class="view-text">
-            <view class="view-title" style="color: {{item.titleColor || '#ff8500'}}">{{item.title}}</view>
+            <view class="view-has-tag">
+              <view class="view-title" 
+                style="color: {{item.titleColor || '#ff8500'}}">{{item.title}}
+              </view>
+              <view class="view-tag">
+                <text class="text-tag">{{item.tag}}</text>
+              </view>
+            </view>
             <view class="view-desc">{{item.desc}}</view>
           </view>
           <view class="view-img-bottom">
