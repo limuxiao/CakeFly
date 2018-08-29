@@ -24,7 +24,6 @@ Component({
   methods: {   
 
     changeRecommends: function(values){  
-      console.log(values[0].title)
       this.setData({
         recommendList: values
       })
@@ -46,6 +45,16 @@ Component({
             obj.success(data)
         },
         fail: obj.fail || function(err){ console.log("推荐信息更新失败：" + err) }
+      })
+    },
+
+    /**
+     * 跳转到推荐详情页面
+     */
+    toDisposePage(event){
+      const { pageUrl, title } = event.currentTarget.dataset
+      wx.navigateTo({
+        url: '/pages/web/web?title=' + title + '&pageUrl=' + pageUrl,
       })
     }
 

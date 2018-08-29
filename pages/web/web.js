@@ -4,17 +4,15 @@ Page({
    * 页面的初始数据
    */
   data: { 
-    title:""
+    pageUrl:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
-    this.setData({
-      title: options.title
-    })
+    this.title = options.title
+    this.pageUrl = options.pageUrl
   },
 
   /**
@@ -22,8 +20,13 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: this.data.title,
+      title: this.title || "默认标题",
     })
+
+    this.setData({
+      pageUrl: this.pageUrl
+    })
+
   },
 
   /**

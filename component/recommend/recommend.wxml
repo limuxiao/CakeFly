@@ -1,14 +1,49 @@
 <view class="view-root">
 
-    <view wx:for="{{recommendList}}" wx:key="recommendId">
+    <block wx:for="{{recommendList}}" wx:key="recommendId">
 
-      <view class="view-item">
+      <view class="view-item" wx:if="{{!item.tag}}" bindtap="toDisposePage" data-page-url="{{item.disposeUrl}}" data-title="{{item.title}}">
         <view class="view-content">
-          <view class="view-title" style="color: {{item.titleColor}}">{{item.title}}</view>
-          <view class="view-desc">{{item.desc}}</view>
+          
+          <view class="view-left">
+            <view class="view-text">
+              <view class="view-title" style="color: {{item.titleColor || '#ff8500'}}">{{item.title}}</view>
+
+              <view class="view-desc">{{item.desc}}</view>
+            </view>
+            
+            <view class="view-img-bottom">
+              <image class="img-left" src="{{item.imgLeft}}" mode="aspectFit" />
+            </view>
+
+          </view>
+
+          <view class="view-right-full">
+            <image class="img-right" 
+              src="{{item.imgRight}}" 
+              mode="aspectFit" /> 
+          </view>
+
         </view>
       </view>
 
-    </view>
+      <view class="view-item" wx:else bindtap="toDisposePage" data-page-url="{{item.disposeUrl}}" data-title="{{item.title}}">
+        <view class="view-content">
+          <view class="view-text">
+            <view class="view-title" style="color: {{item.titleColor || '#ff8500'}}">{{item.title}}</view>
+            <view class="view-desc">{{item.desc}}</view>
+          </view>
+          <view class="view-img-bottom">
+            <view class=".view-left">
+              <image class="img-left" src="{{item.imgLeft}}" mode="aspectFit" />
+            </view>
+            <view class=".view-left">
+              <image class="img-left" src="{{item.imgRight}}" mode="aspectFit" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </block>
 
 </view>

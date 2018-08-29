@@ -1,9 +1,5 @@
 <view>
 
-  <view>
-    <text>{{title}}</text>
-  </view>
-
-  <web-view></web-view>
+  <!-- <web-view src="{{pageUrl}}"></web-view> -->
 
 </view>
