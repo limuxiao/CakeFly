@@ -22,8 +22,15 @@
       <recommend id="recommend" />
     </view>
 
+    <!-- 小视频 -->
+    <view>
+    
+    </view>
+
     <!-- 商品瀑布流 -->
-    <view></view>
+    <view>
+      <goodfall id="goodfall" />
+    </view>
 
   </view>
 

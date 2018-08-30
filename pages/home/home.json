@@ -7,6 +7,8 @@
     "handbanner":"/component/handbanner/handbanner",
     "loading":"/component/loading/loading",
     "news":"/component/news/news",
-    "recommend":"/component/recommend/recommend"
+    "recommend":"/component/recommend/recommend",
+    "live":"/component/live/live",
+    "goodfall":"/component/goodfall/goodfall"
   }
 }
