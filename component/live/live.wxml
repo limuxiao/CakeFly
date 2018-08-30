@@ -1,3 +1,6 @@
-<view>
-  小视频
+<view class="view-live">
+  
+  <view class="view-half"></view>
+  <view></view>
+
 </view>

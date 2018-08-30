@@ -1,0 +1,7 @@
+.view-live{
+  width: 100%; height: 400rpx; background-color: #333; 
+}
+
+.view-half{
+  width: 100%; height: 50%; background-color: #333; 
+}

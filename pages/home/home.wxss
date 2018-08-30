@@ -1,6 +1,6 @@
 /* pages/home/home.wxss */
 page{
-  background-color: #fff;
+  background-color: #eee;
 }
 
 
@@ -19,7 +19,7 @@ page{
 }
 
 .view-news{
-  margin-top: 16rpx;
+  padding-top: 16rpx; background-color: #fff;
 }
 
 .view-recommend{
