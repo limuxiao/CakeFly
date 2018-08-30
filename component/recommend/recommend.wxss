@@ -53,5 +53,5 @@
 }
 
 .text-tag{
-  border: 1rpx solid #ff0ff0; margin: 0; padding: 0 10rpx; border-radius: 4rpx;
+  border: 1rpx solid #ff0ff0; margin: 0; padding: 0 10rpx; border-radius: 4rpx; color: #f80f80;
 }

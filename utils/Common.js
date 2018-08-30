@@ -80,8 +80,11 @@ const Config = {
 
   recommendList:[
     {
-      title:"淘鲜达", desc:"上海盒马生鲜", tag:"品质生鲜 1小时达", titleColor:"#ff401a",
-      imgRight:"https://img.alicdn.com/imgextra/i3/2107975731/TB1_s_Jtr9YBuNjy0FgXXcxcXXa_!!0-item_pic.jpg_430x430q90.jpg",
+      title:"淘鲜达", 
+      desc:"上海盒马生鲜", 
+      tag:"品质生鲜 1小时达", 
+      titleColor:"#ff401a",
+              imgRight:"https://img.alicdn.com/imgextra/i3/2107975731/TB1_s_Jtr9YBuNjy0FgXXcxcXXa_!!0-item_pic.jpg_430x430q90.jpg",
       disposeUrl:"http://www.baidu.com"
     },
     {
@@ -90,17 +93,26 @@ const Config = {
       imgRight: ""
     },
     {
-      title: "淘抢购", desc: "应该倒计时", tag:"", titleColor: "#f22c2b",
+      title: "淘抢购", 
+      desc: "应该倒计时", 
+      tag:"", 
+      titleColor: "#f22c2b",
     },
     {
-      title: "必买清单", desc: "购物全攻略", titleColor: "#ff4261",
+      title: "必买清单", 
+      desc: "购物全攻略", 
+      titleColor: "#ff4261",
       imgRight:"http://img.hb.aicdn.com/2aba7a3da5bcdf6455a182383f6fe5f3de43c3cf10722-qqX7Pg_fw658"
     },
     {
-      title: "爱逛街", desc: "2018流行啥", titleColor: "#ff777",
+      title: "爱逛街", 
+      desc: "2018流行啥", 
+      titleColor: "#ff777",
     },
     {
-      title: "映像淘宝", desc: "有趣又有料", titleColor: "#f6c04b",
+      title: "映像淘宝", 
+      desc: "有趣又有料", 
+      titleColor: "#f6c04b",
     }  
   ]
 

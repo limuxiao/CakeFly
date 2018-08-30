@@ -8,7 +8,7 @@ const request = (obj) => {
     url: obj.url,
     method: obj.method || 'GET',
     data: obj.data || {},
-    header: obj.header || 'application/x-www-form-urlencoded',
+    header: obj.header || {'Content-Type': 'application/x-www-form-urlencoded'},
     success: obj.success || function() { console.log("request success url:" + obj.url) },
     fail: obj.fail || function(err) { console.log("requset fail:" + err) },
     complete: obj.complet || function() {}
