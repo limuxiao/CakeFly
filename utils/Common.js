@@ -43,6 +43,12 @@ class RecommendItem{
 
 }
 
+const Notofication = {
+  
+}
+
+
+
 
 /**
  * 基本配置， 方便修改资源路径

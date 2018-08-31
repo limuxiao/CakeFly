@@ -1,6 +1,52 @@
 <view class="view-live">
   
-  <view class="view-half"></view>
-  <view></view>
+  <view class="view-half">
+    <view class="view-live-active" >
+      
+      <video id="myVideo" class="video-active" controls="{{false}}" autoplay="{{false}}"
+        muted="{{true}}" loop="{{true}}" show-center-play-btn="{{false}}"
+        objectFit="fill"  bindpause="onActivePause" bindplay="onActivePlay"
+      src="https://www-file.huawei.com/-/media/corporate/minisite/hc2018/v1/video/2018has-cn.mp4" >
+
+        <cover-view class="view-mask" bindtap="test">
+
+          <cover-view class="view-active-title">华为智能世界</cover-view>
+          <cover-view class="view-active-desc">把数字世界带入每个人、每个家庭、每个组织</cover-view>
+          <cover-image class="img-live" src="/imgs/icon_live.png" />
+
+        </cover-view>  
+
+      </video>
+
+    </view>
+    <view class="view-live-normal">
+
+       <image class="img-normal" mode= "scaleToFill"
+        src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" /> 
+
+      <view class="view-norma-mask">
+        <view class="view-test">
+            <view class="view-normal-title">巴黎之约</view>  
+           <view class="view-normal-desc">梦幻埃菲尔的别样体验</view> 
+          <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
+        </view> 
+      </view>
+
+    </view>  
+  </view>
+  <view class="view-half">
+    <view class="view-live-normal">
+
+    </view>
+    <view class="view-live-normal">
+
+    </view>
+    <view class="view-live-normal">
+
+    </view>  
+  </view>
+
+ 
+   
 
 </view>
