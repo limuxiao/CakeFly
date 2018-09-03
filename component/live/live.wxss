@@ -47,12 +47,12 @@
 }
 
 .view-normal-title{
-  font-size: 24rpx; color: #fff; margin: 10rpx;  
+  font-size: 24rpx; color: #fff; margin-left: 10rpx;  
 }
 
 .view-normal-desc{
   font-size: 20rpx; color: #eee; 
-  margin: 0 10rpx 40rpx 14rpx; text-overflow: ellipsis;
+  margin: 0 0 40rpx 14rpx; text-overflow: ellipsis;
   -webkit-line-clamp: 1;
 }
 
