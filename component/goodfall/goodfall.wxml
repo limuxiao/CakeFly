@@ -1,5 +1,36 @@
 <view class="view-root">
 
-  商品瀑布流
+  <view class="view-left">
+    <block wx:for="{{goodList}}" wx:key="goodId">
+      <template is="item" data="{{...item}}" wx:if="{{index%2 == 0}}" />
+    </block>
+  </view>
+
+
+  <view class="view-right">
+    <block wx:for="{{goodList}}" wx:key="goodId">
+      <template is="item" data="{{...item}}" wx:if="{{index%2 == 1}}" />
+    </block>
+  </view>
 
 </view>
+
+
+<template name="item">
+  <view class="item">
+    <image class="item-img" src="{{url}}" mode="widthFix"></image>
+    <view class="item-title-box">
+      <navigator url="url" class="item-title">{{title}}</navigator> 
+      <image class="arrow" src="../../image/arrow.png"></image>  
+    </view>
+    <view class="name">
+      <image class="item-ava" src="{{avatar}}"></image>    
+      <text class="name-title">{{name}}</text>
+      <view class="heart_">
+        <image class="heart" src="../../image/heart.png"></image>
+        <text>{{heart_num}}</text>
+      </view>
+    </view>
+  </view>
+
+</template>
