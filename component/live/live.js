@@ -1,3 +1,7 @@
+const Common = require("../../utils/Common.js")
+
+const {Config} = Common
+
 Component({
   /**
    * 组件的属性列表
@@ -10,17 +14,13 @@ Component({
    * 组件的初始数据
    */
   data: {
-    
+    liveList: null
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-
-    test: (event) => {
-      console.log("...点击了视频。。。")
-    },
 
     onActivePause: function(event){
       console.log("...视频暂停了。。。")
@@ -31,13 +31,6 @@ Component({
     onActivePlay: function(event){
       console.log("...视频播放了。。。")
       this.isPlaying = true
-    },
-
-    play: function(){
-      if (this.videoContext) {
-        console.log("...有context对象 play ...")
-        this.videoContext.play()
-      }
     }
 
   },
@@ -51,6 +44,9 @@ Component({
 
   ready: function () {
     console.log("...live ready...")
+    this.setData({
+      liveList: Config.liveList
+    })
     this.videoContext = wx.createVideoContext("myVideo", this)
     this.videoContext.play()
   },

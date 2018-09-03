@@ -43,6 +43,28 @@ class RecommendItem{
 
 }
 
+/**
+ * 视频 item
+ */
+class LiveItem{
+  /**
+   * 构造
+   * @param titel  -- 标题
+   * @param desc   -- 藐视
+   * @param showUrl -- 显示用的URL 图片或者视频
+   * @param disposeUrl  -- 跳转url
+   */
+  constructor(obj){
+    if(obj){
+      this.title = obj.title || ""
+      this.desc = obj.desc || ""
+      this.showUrl = obj.showUrl || ""
+      this.disposeUrl = obj.disposeUrl || ""
+    }
+    
+  }
+}
+
 const Notofication = {
   
 }
@@ -120,7 +142,38 @@ const Config = {
       desc: "有趣又有料", 
       titleColor: "#f6c04b",
     }  
+  ],
+
+  liveList:[
+    new LiveItem({
+      title:"华为智能世界", desc:"把数字世界带入每个人、每个家庭、每个组织",
+      showUrl:"https://www-file.huawei.com/-/media/corporate/minisite/hc2018/v1/video/2018has-cn.mp4",
+      disposeUrl:"https://www-file.huawei.com/-/media/corporate/minisite/hc2018/v1/video/2018has-cn.mp4"
+    }),
+    new LiveItem({
+      title:"巴黎之约", desc:"梦幻埃菲尔的别样体验",
+      showUrl:"http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
+      disposeUrl:"http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+
+    }),
+    new LiveItem({
+      title: "巴黎之约", desc: "梦幻埃菲尔的别样体验",
+      showUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg",
+      disposeUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"
+    }),
+    new LiveItem({
+      title: "巴黎之约", desc: "梦幻埃菲尔的别样体验",
+      showUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg",
+      disposeUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"
+    }),
+    new LiveItem({
+      title: "巴黎之约", desc: "梦幻埃菲尔的别样体验",
+      showUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
+      disposeUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+    }),
+
   ]
+
 
 }
 
