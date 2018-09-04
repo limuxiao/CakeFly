@@ -6,6 +6,10 @@
   width: 25%; height: 100%; background-color: #fff; display: table-cell; position: relative;
 }
 
+.view-entry-item-hover{
+  background-color: #eee;
+}
+
 .view-entry-icon{
   width: 60%; height: 60%; padding: 4rpx; margin: 4rpx auto;
 }

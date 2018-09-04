@@ -27,6 +27,8 @@
       <live id="live" />
     </view>
 
+    <template is="split" />
+
     <!-- 商品瀑布流 -->
     <view>
       <goodfall id="goodfall" />
@@ -35,3 +37,13 @@
   </view>
 
 </view>
+
+
+<template name="split">
+  <view class="view-split">
+    <image class="img-split" />
+     
+    <!-- <text class="text-split">猜你喜欢</text> -->
+    <!-- <image class="view-split" /> -->
+  </view>
+</template>

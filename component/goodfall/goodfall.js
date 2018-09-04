@@ -26,7 +26,14 @@ Component({
   },
 
   ready: function () {
-
+    this.setData({
+      goodList:[
+        { title: "哈哈"},
+        { title: "呵呵"},
+        { title: "嘿嘿"},
+        { title: "哼哼"}
+      ]
+    })
   },
 
 

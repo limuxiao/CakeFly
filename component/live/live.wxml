@@ -17,71 +17,41 @@
         </video>
       </view>
 
-      <view class="view-live-normal">
-        <image class="img-normal" mode= "scaleToFill"
-          src="{{liveList[1].showUrl}}" /> 
-        <view class="view-norma-mask">
-          <view class="view-test">
-              <view class="view-normal-title">{{liveList[1].title}}</view>  
-            <view class="view-normal-desc">{{liveList[1].desc}}</view> 
-            <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
-          </view> 
-        </view>
-      </view>
+      <template is="item-live" data="{{...liveList[1]}}" />
 
     </view>
 
     <view class="view-half">
 
-      <view class="view-live-normal">
-        <image class="img-normal" mode= "scaleToFill"
-          src="{{liveList[2].showUrl}}" /> 
-        <view class="view-norma-mask">
-          <view class="view-test">
-              <view class="view-normal-title">{{liveList[2].title}}</view>  
-            <view class="view-normal-desc">{{liveList[2].desc}}</view> 
-            <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
-          </view> 
-        </view>
-      </view>
+      <template is="item-live" data="{{...liveList[2]}}" />
 
-      <view class="view-live-normal">
-        <image class="img-normal" mode= "scaleToFill"
-          src="{{liveList[3].showUrl}}" /> 
-        <view class="view-norma-mask">
-          <view class="view-test">
-              <view class="view-normal-title">{{liveList[3].title}}</view>  
-            <view class="view-normal-desc">{{liveList[3].desc}}</view> 
-            <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
-          </view> 
-        </view>
-      </view>
+      <template is="item-live" data="{{...liveList[3]}}" />
 
-      <view class="view-live-normal">
-        <image class="img-normal" mode= "scaleToFill"
-          src="{{liveList[4].showUrl}}" /> 
-        <view class="view-norma-mask">
-          <view class="view-test">
-              <view class="view-normal-title">{{liveList[4].title}}</view>  
-            <view class="view-normal-desc">{{liveList[4].desc}}</view> 
-            <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
-          </view> 
-        </view>
-      </view>  
+      <template is="item-live" data="{{...liveList[4]}}" />
     </view>
 
   </block>
-
-
 
 
   <block wx:else>
 
   </block>
 
-  
-
- 
-   
-
 </view>
+
+
+<template name="item-live">
+
+  <view class="view-live-normal">
+    <image class="img-normal" mode= "scaleToFill"
+      src="{{showUrl}}" /> 
+    <view class="view-norma-mask"> 
+      <view class="view-test">
+          <view class="view-normal-title">{{title}}</view>  
+        <view class="view-normal-desc">{{desc}}</view> 
+        <image class="img-normal-live" src="/imgs/icon_live.png" mode="scaleToFill" />
+      </view> 
+    </view>
+  </view>
+
+</template>
