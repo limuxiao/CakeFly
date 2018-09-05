@@ -1,5 +1,5 @@
 .view-root{
-  margin: 20rpx 20rpx 0 20rpx; text-align: justify;
+  text-align: justify; overflow-x: hidden; 
 }
 
 .view-left,.view-right{
@@ -14,8 +14,20 @@
   margin:20rpx 20rpx 0 20rpx;
 }
 
+.view-item-heart{
+  width: 70%; float: left; margin-top: 10rpx; text-align: left;
+}
+
+.view-item-fav{
+  width: 30%; float: right; margin-top: 10rpx; text-align: right;
+}
+
 .img-show{
   width: 100%; background-color: #333;
+}
+
+.img-item-icon{
+  width: 40rpx; height: 40rpx; background-color: #ff00ff;
 }
 
 .text-desc{

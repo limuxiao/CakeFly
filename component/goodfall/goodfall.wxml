@@ -22,6 +22,18 @@
       src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
 
     <text class="text-desc">我就试试看是显示在什么位置我就试试看是显示在什么位置么位置我就试试看是显示在什么位置</text>
+
+    <view class="view-item-heart">
+      <image class="img-item-icon" mode="scaleToFill" />
+      <text>20</text>
+      <image class="img-item-icon" mode="scaleToFill" />
+      <text>100</text>
+    </view>
+    <view class="view-item-fav">
+      <image class="img-item-icon" mode="scaleToFill" />
+      <text>30</text>
+    </view>
+
   </view>
 
 </template>

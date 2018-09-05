@@ -135,7 +135,7 @@ const Config = {
     {
       title: "爱逛街", 
       desc: "2018流行啥", 
-      titleColor: "#ff777",
+      titleColor: "#ff7777",
     },
     {
       title: "映像淘宝", 
