@@ -1,5 +1,5 @@
 .view-root{
-  width: 100%; height: auto; overflow: auto; padding-top: 24rpx; padding-bottom: 24rpx;
+  width: 100%; height: auto; overflow: hidden; margin: 20rpx 0;
 }
 
 .view-item{

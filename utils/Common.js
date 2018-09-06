@@ -65,6 +65,31 @@ class LiveItem{
   }
 }
 
+/**
+ * 商品瀑布 item
+ */
+class GoodItem{
+  /**
+   * 构造
+   * @param desc  --  描述
+   * @param collect -- 收藏数
+   * @param live  --  点赞数
+   * @param comment  -- 评论数
+   * @param disposeUrl  --  目标路径
+   * @param imgUrl  --  显示图片路径
+   */
+  constructor(obj){
+    if(obj){
+      this.desc = obj.desc || ""
+      this.collect = obj.collect || ""
+      this.live = obj.live || ""
+      this.comment = obj.comment || ""
+      this.disposeUrl = obj.disposeUrl || ""
+      this.imgUrl = obj.imgUrl || ""
+    }
+  }
+}
+
 const Notofication = {
   
 }
@@ -172,6 +197,13 @@ const Config = {
       disposeUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
     }),
 
+  ],
+  goodList: [
+    new GoodItem(),
+    new GoodItem(),
+    new GoodItem(),
+    new GoodItem(),
+    new GoodItem()  
   ]
 
 

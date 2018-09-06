@@ -1,5 +1,5 @@
 .view-root{
-  text-align: justify; overflow-x: hidden; 
+  text-align: justify; overflow: hidden;
 }
 
 .view-left,.view-right{
@@ -11,28 +11,42 @@
 }
 
 .view-item{
-  margin:20rpx 20rpx 0 20rpx;
+  padding:20rpx 20rpx 0rpx 20rpx; border-bottom: 1rpx solid #eee; overflow: hidden;
 }
 
 .view-item-heart{
-  width: 70%; float: left; margin-top: 10rpx; text-align: left;
+  width: 70%; height: auto; float: left; margin-top: 10rpx; text-align: left; 
 }
 
 .view-item-fav{
-  width: 30%; float: right; margin-top: 10rpx; text-align: right;
+  width: 30%; height: auto; float: right; margin-top: 10rpx; text-align: right; 
+  
+}
+
+.view-item-img{
+  width: 100%; 
 }
 
 .img-show{
-  width: 100%; background-color: #333;
+  width: 100%; 
 }
 
 .img-item-icon{
-  width: 40rpx; height: 40rpx; background-color: #ff00ff;
+  width: 32rpx; height: 32rpx; 
 }
 
 .text-desc{
   width: 100%; font-size: 24rpx; color: #333; 
-  text-overflow: ellipsis; -webkit-line-clamp: 2;
-  overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical;
+  overflow: hidden;  display: -webkit-box;
+  -webkit-line-clamp: 2; text-overflow: clip;
+  -webkit-box-orient: vertical; word-break: break-all;
+  
+}
 
+.text-item{
+  font-size: 24rpx; color: #999; margin: 0 6rpx;
+}
+
+.view-item-test{
+  padding: 20rpx; border-bottom: 1rpx solid #333; overflow: hidden;
 }
